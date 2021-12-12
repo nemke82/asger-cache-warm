@@ -6,6 +6,11 @@ Cache warm up tool
 docker run --rm -it quay.io/nemke82/asger-cache-warm bash -c "/root/asger.sh https://website.com 5"
 ```
 
+You can run entire process as daemon:
+```
+docker run -d --rm -it quay.io/nemke82/asger-cache-warm bash -c "/root/asger.sh https://website.com 5"
+```
+
 2nd way. Clone repo, build your own image and run it:
 1) git clone https://github.com/nemke82/asger-cache-warm.git
 2) docker build -t asger-cache-warm .
