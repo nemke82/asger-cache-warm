@@ -19,3 +19,6 @@ docker run -d --rm -it quay.io/nemke82/asger-cache-warm bash -c "/root/asger.sh 
 Note:
 - Substitute website.com with real domain name
 - 5 is default concurrent curl request to site pages. You can raise or lower it
+
+Blog post:
+https://nemanja.io/warm-up-pages-using-trafilatura-web-scraping-tool-2/
